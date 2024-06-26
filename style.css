@@ -1,0 +1,60 @@
+.outside {
+    background-color: grey;
+    height: 400px;
+    width: 500px;
+    position: relative;
+}
+
+.inside {
+    background-color: blue;
+    height: 40%;
+}
+
+.card {
+    background-color: red;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -75px;
+    border-radius: 175px;
+}
+.circle img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 175px;
+}
+
+.text {
+    background-color: yellow;
+    width: 80%;
+    height: 70%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.buttonbar {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
